@@ -1,4 +1,4 @@
-package com.testingacdemy;
+package com.testingacdemy.sample;
 
 public class TestFile {
     public static void main(String[] args) {
