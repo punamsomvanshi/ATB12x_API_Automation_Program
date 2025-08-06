@@ -1,10 +1,8 @@
 package com.testingacdemy.sample;
 
-import org.testng.annotations.Test;
-
 public class SampleTest {
-    @Test
-        public void demoTest(){
+    public static void main(String[] args)
+    {
         System.out.println("TestNG is Working");
     }
 }
