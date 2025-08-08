@@ -1,8 +1,13 @@
 package com.testingacdemy.sample;
 
+import org.testng.annotations.Test;
+
 public class SampleTest {
-    public static void main(String[] args)
-    {
-        System.out.println("TestNG is Working");
-    }
-}
+
+      @Test(enabled = true)
+      public void Testdemo()
+      {
+          System.out.println("TestNG is Working");
+      }
+  }
+
